@@ -45,7 +45,6 @@ const HeroSection = () => {
                 <BiLogoGithub className=' hover:cursor-pointer'/>
                 <CiLinkedin />
                 <BiLogoGmail />
-                <BiLogoGmail />
             </div>
 
                 </div>
