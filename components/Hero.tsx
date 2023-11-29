@@ -38,9 +38,9 @@ const Hero = () => {
 
       <div className="flex max-w-[780px] mx-auto sm:gap-20 gap-5 sm:px-0 px-10 sm:py-5 py-3 mt-10">
         {
-            gray.map((item,index) => {
+            gray.map((item) => {
                 return(
-                    <div key={index} className="flexCenter sm:w-[180px] sm:h-[49p-2">
+                    <div className="flexCenter sm:w-[180px] sm:h-[49p-2">
                     <Image 
                     src={item.imgsrc}
                     alt='hero_img'
