@@ -57,11 +57,11 @@ const Hero = () => {
 
       <div className="flex max-w-[780px] mx-auto sm:gap-20 gap-5 sm:px-0 px-10 sm:py-5 py-3">
         {
-            gray.map((item,i) => {
+            gray.map((item) => {
                 return(
                     <div className="flexCenter sm:w-[180px] sm:h-[49p-2">
                     <Image 
-                    key={i}
+                    // key={i}
                     src={item.imgsrc}
                     alt='hero_img'
                     width={3000}
