@@ -1,6 +1,6 @@
 import React from "react";
-import Nav from "./nav";
 import Image from "next/image";
+import Companies from "./Companies";
 
 const gray = [
     { imgsrc:"/gray1.png" },
@@ -19,62 +19,47 @@ const Hero = () => {
         no more, no less. Deploy from our single pane of glass, manage them with
         ease and scale up as fast as your workload grows.
         </p>
-        <button className="px-10 py-2 sm:text-base text-xs rounded-md bg-[#0C5BC6] text-white">Get Started Now</button>
+        <button className="px-10 py-2 sm:mb-1 mb-6 sm:text-base text-xs rounded-md bg-[#0C5BC6] text-white">Get Started Now</button>
       </main>
 
-      <div className="relative flexCenter max-w-[980px] mx-auto">
+      {/* --- Hero Section image */}
+      <div className="relative flexCente max-w-[980px] mx-auto">
       <Image 
           src="/hero.png"
           alt='hero_img'
-          width={200000}
-          height= {600}
+          width={1460}
+          height= {443}
         //   fill
         //   priority
         //   sizes="(max-width:760px) 100vw,700px"
-          className='w-full max-w-[1200px] mx-auto h-[auto] sm:px-6 px-4'
+          className='w-full max-w-[1200px] mx-auto h-[auto] sm:px-0 px-4'
         />
       </div>
 
 
-      <div className="flex max-w-[780px] mx-auto sm:gap-20 gap-5 sm:px-0 px-10 sm:py-5 py-3 mt-10">
+      <div className="flexBetween max-w-[780px] mx-auto sm:gap-20 gap-5 sm:px-0 px-10 sm:py-5 py-3">
         {
-            gray.map((item,i) => {
-                return(
-                    <div key={i} className="flexCenter sm:w-[180px]">
-                    <Image 
-                    src={item.imgsrc}
-                    alt='hero_img'
-                    width={3000}
-                    height= {1000}
-                    className='w-auto h-auto'
-                      />
-                    </div>
-                    )
-            })
-
+          gray.map((item,i) => (
+                <Companies 
+                index = {i}
+                imgsrc = {item.imgsrc}
+                />
+                  )
+          )
         }
       </div>
 
-      <div className="flex max-w-[780px] mx-auto sm:gap-20 gap-5 sm:px-0 px-10 sm:py-5 py-3">
+      <div className="flexBetween max-w-[780px] mx-auto sm:gap-20 gap-5 sm:px-0 px-10 sm:py-5 py-3">
         {
-            gray.map((item,i) => {
-                return(
-                    <div key={i} className="flexCenter sm:w-[180px]">
-                    <Image 
-                    // key={i}
-                    src={item.imgsrc}
-                    alt='hero_img'
-                    width={3000}
-                    height= {1000}
-                    className='w-[auto] h-[auto]'
-                      />
-                    </div>
-                    )
-            })
-
+          gray.map((item,i) => (
+                <Companies 
+                index = {i}
+                imgsrc = {item.imgsrc}
+                />
+                  )
+          )
         }
       </div>
-
 
     </header>
   );
