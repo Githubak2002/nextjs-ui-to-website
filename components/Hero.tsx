@@ -40,9 +40,8 @@ const Hero = () => {
         {
             gray.map((item,i) => {
                 return(
-                    <div className="flexCenter sm:w-[180px] sm:h-[49p-2">
+                    <div key={i} className="flexCenter sm:w-[180px] sm:h-[49p-2">
                     <Image 
-                    key={i}
                     src={item.imgsrc}
                     alt='hero_img'
                     width={3000}
