@@ -3,9 +3,9 @@ import Image from 'next/image'
 
 const Companies = (props:any) => {
 
-  const { index, imgsrc } = props;
+  const { imgsrc } = props;
   return (
-    <div key={index} className="flexCenter sm:w-[120px] sm:h-full p-2">
+    <div className="flexCenter sm:w-[120px] sm:h-full p-2">
                     <Image 
                     // key={i}
                     src={imgsrc}
