@@ -41,6 +41,7 @@ const Hero = () => {
         {
           gray.map((item,i) => (
                 <Companies 
+                key = {i}
                 index = {i}
                 imgsrc = {item.imgsrc}
                 />
@@ -53,6 +54,7 @@ const Hero = () => {
         {
           gray.map((item,i) => (
                 <Companies 
+                key = {i}
                 index = {i}
                 imgsrc = {item.imgsrc}
                 />
