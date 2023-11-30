@@ -16,8 +16,12 @@ const Footer = () => {
       <main className="sm:flex hidden mx-auto max-w-[900px] sm:flexBetween px-3 text-[14px]">
         <div className="max-w-[220px] flex flex-col sm:flex-col-reverse">
           <div className="flex gap-2 pt-3">
-            <i className={`${socialCss} bg-blue-300 ri-github-line `} />
+            <a href="https://github.com/Githubak2002">
+            <i className={`${socialCss} bg-blue-300 ri-github-line `} /> 
+            </a>
+            <a href="https://www.linkedin.com/in/anuraglohar">
             <i className={`${socialCss} bg-blue-200 ri-linkedin-line `} />
+            </a>
             <i className={`${socialCss} bg-blue-100 ri-mail-line `} />
           </div>
           <h2 className="leading-6">{footerContent1}</h2>
@@ -50,8 +54,12 @@ const Footer = () => {
         <Image src="/logo_sm.png" alt="logo" height={30} width={30} />
         <div className="flex flex-col-reverse pt-4 pb-8 sm:border-0 border-b-2 border-[#B8B8B8]">
           <div className="flex gap-2 pt-3">
-            <i className={`${socialCss} bg-blue-300 ri-github-line `} />
+          <a href="https://github.com/Githubak2002">
+            <i className={`${socialCss} bg-blue-300 ri-github-line `} /> 
+            </a>
+            <a href="https://www.linkedin.com/in/anuraglohar">
             <i className={`${socialCss} bg-blue-200 ri-linkedin-line `} />
+            </a>
             <i className={`${socialCss} bg-blue-100 ri-mail-line `} />
           </div>
           <h2 className="leading-6">{footerContent1}</h2>
