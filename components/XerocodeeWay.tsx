@@ -10,7 +10,7 @@ const XerocodeeWay = () => {
       
       <h2 className="mb-12 pt-10 flexCenter text-center font-bold text-xl">The Xerocodee Way 
       <Image 
-      src="/rocket.png"
+      src="/Rocket.png"
       alt="rocket"
       width={30}
       height={30}
