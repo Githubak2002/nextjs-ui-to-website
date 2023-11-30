@@ -22,6 +22,7 @@ const Features = () => {
 
     {/* --- features btns --- */}
     <div className="lg:flex hidden gap-x-3 mt-12 mb-6">
+        <button className="px-3 py-1 border-blue-600 border-b-[3px] text-xs font-semibold text-[#494369] w-[110px] h-[30px]">Apps</button>
         {
             features.map((feature,i) => (
                 <button key={i} className="px-3 py-1 border-slate-300 border text-xs font-semibold text-[#494369] bg-white w-[110px] h-[30px]">{feature.f}</button>
@@ -30,7 +31,7 @@ const Features = () => {
     </div>
 
     {/* --- dashboard images --- */}
-      <div className="relative my-20 h-auto md:w-[550px] sm:w-[405px] w-[205px]">
+      <div className="relative my-20 h-auto md:w-[520px] sm:w-[405px] w-[205px]">
         <Image
           src="/dashboard-1.png"
           alt="dashboard_img"

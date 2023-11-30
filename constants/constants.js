@@ -27,7 +27,6 @@ export const otherLinks = [
 
 //  --- Features ---
 export const features = [
-    {f:"Apps"},
     {f:"App Configs"},
     {f:"Pipelines"},
     {f:"Infra Creation"},
@@ -85,7 +84,7 @@ export const xeroCodeTwo = [
     {
         heading:"Push To Deploy",
         subHeading:"Portable builds powered by Dagger and continuous deployments powered by ArgoCD - you gain more control of your pipelines with composable custom, build, and deploy stages.",
-        imgurl:"/deploy.pmg",
+        imgurl:"/deploy.png",
         alt:"deploy"
     },
     {
