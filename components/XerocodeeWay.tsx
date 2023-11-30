@@ -5,7 +5,7 @@ import Card from "./Card";
 
 const XerocodeeWay = () => {
   return (
-    <section className="sm:mx-auto max-w-[1200px] sm:px-3">
+    <section className="sm:mx-auto max-w-[1200px] sm:px-3 mt-14">
     <main className="sm:border-0 sm:bg-white   sm:rounded-5xl mx-3 border border-slate-400 rounded-xl pb-4 mb-10">
       
       <h2 className="mb-12 pt-10 flexCenter text-center font-bold text-xl">The Xerocodee Way 
