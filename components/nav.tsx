@@ -14,7 +14,6 @@ const Nav = () => {
 
     {/* ==== nav for laptop and tablet size screen ==== */}
 
-    {/* <main className='max-w-[1398px] mx-auto h-[81px] lg:flexBetween hidden border-b border-2 shadow-lg px-[117px] text-lg font-medium'> */}
     <main className='max-w-[1098px] mx-auto h-[71px] mt-2 lg:flexBetween hidden border-b border-2 shadow-lg px-[117px] text-lg font-medium rounded-lg'>
 
         <Image 

@@ -29,9 +29,6 @@ const Hero = () => {
           alt='hero_img'
           width={1460}
           height= {443}
-        //   fill
-        //   priority
-        //   sizes="(max-width:760px) 100vw,700px"
           className='w-full max-w-[1200px] mx-auto h-[auto] sm:px-0 px-4'
         />
       </div>

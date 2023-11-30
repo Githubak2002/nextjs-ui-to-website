@@ -112,25 +112,6 @@ const Features = () => {
 
       </div>
 
-
-
-
-      {/* <div className="flexBetween bg-white p-2   my-10">
-        <div className="flexCenter h-[74px] w-[74px] rounded-xl shadow-xl">
-            <Image
-                src="/infrastructure.png"
-                alt="infrastructure_img"
-                width={54}
-                height={54}
-                className="h-[80%] w-[80%] bg-white"
-            />
-        </div>
-        <div className="flex-col pl-4">
-            <h2 className="text-xl font-bold">Infrastructure</h2>
-            <h2>Automated Cloud Infrastructure Workflow</h2>
-        </div>
-      </div> */}
-
     </section>
   );
 };
