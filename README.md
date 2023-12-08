@@ -1,7 +1,7 @@
 # Assignment Solution --- XeroCodee I Frontend Engineer Task
 
-<h3><a href="https://next-ui-to-website.vercel.app/">Website Live Demo →</a> </h3>
-<h3><a href="https://www.figma.com/file/XzGNxqTRB2s3mJOdp8Kh3V/XeroCodee---Full-Stack-Developer-Intern-Task-(Copy)?type=design&mode=design&t=jxUp6Exk0ABWTAVx-0" target="blank">Figma Design Link →</a> </h3>
+<h3><a href="https://next-ui-to-website.vercel.app" target="blank">Website Live Demo →</a> </h3>
+<h3><a href="https://www.figma.com/file/XzGNxqTRB2s3mJOdp8Kh3V/XeroCodee---Full-Stack-Developer-Intern-Task-(Copy)?type=design&mode=design&t=jxUp6Exk0ABWTAVx-0"  target="blank">Figma Design Link →</a> </h3>
 
 Figma Design to Nest js website --- 
 
