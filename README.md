@@ -1,6 +1,7 @@
 # Assignment Solution --- XeroCodee I Frontend Engineer Task
 
-<h1><a href="https://next-ui-to-website.vercel.app/">Live Demo →</a> </h1>
+<h3><a href="https://next-ui-to-website.vercel.app/">Website Live Demo →</a> </h3>
+<h3><a href="https://www.figma.com/file/XzGNxqTRB2s3mJOdp8Kh3V/XeroCodee---Full-Stack-Developer-Intern-Task-(Copy)?type=design&mode=design&t=jxUp6Exk0ABWTAVx-0">Figma Design Link →</a> </h3>
 
 Figma Design to Nest js website --- 
 
@@ -10,6 +11,8 @@ Figma Design to Nest js website ---
   <li>JavaScript</li>
   <li>Tailwind CSS ... etc ...</li>
 </ul>
+
+ 
 
 <h1><a href="https://githubak2002.github.io/akportfolio">All my projects → </a> </h1>
 
